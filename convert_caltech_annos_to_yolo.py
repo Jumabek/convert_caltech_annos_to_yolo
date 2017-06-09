@@ -179,7 +179,7 @@ def convert_video_images(images_dir,annos_dir,yolo_annos_dir, fileliststream):
 
 def main(argv):
     parser = argparse.ArgumentParser()
-    parser.add_argument('-images_root', default = 'F:\dataset\CaltechPedestrians\\test_images', # This dir name I cannot change cuz it will cause confusion 
+    parser.add_argument('-images_root', default = 'F:\dataset\CaltechPedestrians\\train_images', # This dir name I cannot change cuz it will cause confusion 
                         help='path to root of the images dir\n', )
     parser.add_argument('-annos_root', default = 'F:\dataset\CaltechPedestrians\\txt_annotations',  
                         help='path to root of the annotations dir ')
