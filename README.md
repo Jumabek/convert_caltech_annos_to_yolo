@@ -7,6 +7,7 @@ You first need to extract .seq files into images and annotations into text files
 
 next use convert_caltech_annos_to_yolo script to convert annotations into yolo format by providing
 
+```python
 parser.add_argument('-images_root', default = 'F:\dataset\CaltechPedestrians\\train_images', # This dir name I cannot change cuz it will cause confusion 
                         help='path to root of the images dir\n', )
     parser.add_argument('-annos_root', default = 'F:\dataset\CaltechPedestrians\\txt_annotations',  
@@ -15,4 +16,4 @@ parser.add_argument('-images_root', default = 'F:\dataset\CaltechPedestrians\\tr
                         help='path to root of simple annotations dir')
     parser.add_argument('-filelist', default = 'F:\\dataset\\CaltechPedestrians\\fullBB-sample\\filelist_train.txt', 
                         help='name of the file that contain paths to images.')
-    
+```
